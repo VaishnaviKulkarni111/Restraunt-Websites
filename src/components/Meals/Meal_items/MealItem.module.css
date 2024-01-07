@@ -1,0 +1,17 @@
+
+.meal h3{
+  font-weight: bolder;
+  
+}
+
+.description{
+    font-style: italic;
+    font-family:cursive;
+    margin-bottom: 0.5rem;
+}
+
+.price{
+    color: #921717;
+    font-size: large;
+    font-weight: bold;
+}
