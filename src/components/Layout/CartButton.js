@@ -2,8 +2,8 @@ import Carticon from "../Cart/Carticon";
 import classes from './CartButton.module.css';
 
 
-const CartButton =() =>{
-    return <button className={classes.button}>
+const CartButton =(props) =>{
+    return <button className={classes.button} onClick={props.onClickk}>
     <span className={classes.icon}>
     <Carticon/>
     </span>
