@@ -1,8 +1,7 @@
-.cartitems {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+.li{
+  display: flex;
+  justify-content: space-evenly;
+}
   
   .total {
     display: flex;
@@ -13,11 +12,9 @@
     margin: 1rem 0;
   }
   
-  .btns {
-    text-align: right;
-  }
   
-   button {
+  
+   .closeBtn {
     font: inherit;
     cursor: pointer;
     background-color: transparent;
@@ -26,14 +23,31 @@
     border-radius: 25px;
     margin-left: 1rem;
   }
-  
-  
-  
-   .cancel {
-    color: #8a2b06;
-  }
-  
-   .order {
+  .orderBtn {
+    font: inherit;
+    cursor: pointer;
     background-color: #8a2b06;
     color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
   }
+  .removeBtn{
+    
+    cursor: pointer;
+    background-color: #8a2b06;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    margin-left: 5rem;
+  }
+  
+.actions{
+  display: flex;
+  justify-content: space-evenly;
+}
+.total{
+ font: italic;
+ display: flex;
+ justify-content: space-around;
+}
